@@ -23,7 +23,7 @@ compartirlos.
 
 | Categoría | Para qué | Prompts |
 |---|---|---|
-| [Planificación](prompts/planificacion/) | Clases, unidades didácticas, sílabos | Próximamente |
+| [Planificación](prompts/planificacion/) | Clases, unidades didácticas, sílabos | [Aula invertida en Moodle con Claude Code](prompts/planificacion/aula-invertida-moodle.md) |
 | [Evaluación](prompts/evaluacion/) | Rúbricas, exámenes, actividades | [Rúbrica analítica](prompts/evaluacion/rubrica-analitica.md) |
 | [Retroalimentación](prompts/retroalimentacion/) | Comentarios a trabajos de estudiantes | Próximamente |
 | [Adaptación](prompts/adaptacion/) | Materiales para distintos niveles y necesidades | Próximamente |

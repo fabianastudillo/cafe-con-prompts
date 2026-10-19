@@ -2,4 +2,4 @@
 
 Prompts para planificar clases, unidades didácticas y sílabos.
 
-Próximamente. Cada prompt nuevo seguirá el formato de [`PLANTILLA.md`](../../PLANTILLA.md).
+- [Aula invertida en Moodle con Claude Code](aula-invertida-moodle.md)
