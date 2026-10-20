@@ -1,6 +1,6 @@
 # Aula invertida en Moodle con Claude Code
 
-> 🎬 **Video:** próximamente · ☕ **Categoría:** Planificación · 🛠️ **Requiere:** [Claude Code](https://claude.com/claude-code)
+> 🎬 **Video:** [Armé un aula invertida completa en Moodle con UN prompt](https://youtu.be/Ffv4-GI6POs) · ☕ **Categoría:** Planificación · 🛠️ **Requiere:** [Claude Code](https://claude.com/claude-code)
 
 ## Para qué sirve
 
