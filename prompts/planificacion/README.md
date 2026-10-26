@@ -6,3 +6,4 @@ Prompts para planificar clases, unidades didácticas y sílabos.
   - [Versión original](aula-invertida-moodle-original.md): el prompt tal como lo usé con mis
     materias, sin adaptar. Hace referencia a scripts de mi repositorio que no están aquí; para
     empezar, usa la versión de arriba.
+- [Video interactivo con preguntas (H5P) en Moodle con Claude Code](video-interactivo-h5p.md) · video próximamente
