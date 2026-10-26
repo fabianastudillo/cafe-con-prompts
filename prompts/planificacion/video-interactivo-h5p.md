@@ -109,14 +109,19 @@ Con mi visto bueno:
 - Arma un `.h5p` de solo contenido (`h5p.json` y `content/content.json`, sin carpetas de
   librerías), con `mainLibrary` H5P.InteractiveVideo y `preloadedDependencies` con las
   versiones del paso 1. El video va por su URL de YouTube (`mime: video/YouTube`).
-- Cada pregunta con `pause: true` y `adaptivity.requireCompletion: true`: el video se
-  detiene y no sigue hasta responder. Al final, un resumen.
+- Cada pregunta con `pause: true`: el video se detiene en ese segundo. Deja
+  `adaptivity.requireCompletion` en `false`: si es `true`, el estudiante no puede seguir hasta
+  acertar y todos terminan con la nota máxima. Si se equivoca, ve la retroalimentación y sigue.
+- Al final, la pantalla de envío (`endscreens`) un segundo antes de que acabe el video: **la
+  nota solo llega a Moodle cuando el estudiante pulsa «Enviar respuestas»**.
 - Todos los textos de la interfaz en español (`l10n` del video interactivo y textos de cada
   pregunta: «Comprobar», «Reintentar», «Mostrar solución», «Continuar»…). Sin ellos, los
   botones salen en inglés.
 - Publícalo como actividad H5P (`mod_h5pactivity`) en la sección pedida, con el seguimiento
   de intentos activado y, si hay calificación, con la nota al libro de calificaciones (mejor
-  intento). Nombre: «Video: <título corto>». Antes de subir el paquete, vacía el área de
+  intento). Nombre: «Video: <título corto>». En la descripción (visible en el curso), dile al
+  estudiante que el video se detendrá para preguntarle y que al final debe pulsar «Enviar
+  respuestas» o su nota no se registra. Antes de subir el paquete, vacía el área de
   borrador del formulario: Moodle añade el archivo nuevo junto al viejo.
 - Ábrela como profesor y comprueba que se despliega sin errores (Moodle muestra «Missing
   required library» u otro aviso si algo no cuadra) y que el video y las preguntas están.
@@ -149,8 +154,8 @@ caducó.
 ## Variaciones
 
 - **Sin nota:** responde «no» en Calificación para una actividad formativa.
-- **Sin bloquear el avance:** pide «que el video no se detenga obligatoriamente» si prefieres
-  preguntas opcionales.
+- **Aprendizaje por dominio:** pide «que no pueda seguir hasta acertar» (`requireCompletion`):
+  el estudiante reintenta cada pregunta, pero todos terminan con la nota máxima.
 - **Pregunta abierta al final:** pide «añade al final una pregunta abierta para traer a clase».
 - **Video sin subtítulos:** entrega una transcripción con tiempos (por ejemplo, la de «Mostrar
   transcripción» de YouTube) en `insumos/` y dile a Claude que la use.
@@ -159,5 +164,7 @@ caducó.
 
 - Revisa cada pregunta contra su cita: si la cita no la responde, pide que la cambie.
 - Mira que el segundo de cada pregunta quede **después** de la explicación.
+- Con «Reintentar» activado (por defecto), la nota cuenta la respuesta final: el estudiante puede
+  corregir antes de seguir. Si quieres que cuente el primer intento, pide «sin botón Reintentar».
 - Prueba la actividad con una cuenta de estudiante: como profesor la ves en vista previa y no se
-  registran intentos.
+  registran intentos. Llega hasta el final y pulsa «Enviar respuestas»: sin ese clic no hay nota.
