@@ -1,6 +1,6 @@
 # Aula invertida en Moodle con Claude Code
 
-> 🎬 **Video:** [Armé un aula invertida completa en Moodle con UN prompt](https://youtu.be/Ffv4-GI6POs) · ☕ **Categoría:** Planificación · 🛠️ **Requiere:** [Claude Code](https://claude.com/claude-code)
+> 🎬 **Video:** [Armé un aula invertida completa en Moodle con UN prompt](https://youtu.be/Ffv4-GI6POs) · ☕ **Categoría:** Planificación · 🛠️ **Requiere:** [Claude Code](https://claude.com/claude-code) (terminal o Claude Desktop)
 
 ## Para qué sirve
 
@@ -9,7 +9,7 @@ planificación semana a semana, guías de estudio, banco de preguntas, cuestiona
 tareas con rúbrica a partir del manual de prácticas, etiquetas de antes / en clase / laboratorio /
 cierre con fechas reales y la imagen del curso.
 
-No es un prompt para el chat: se ejecuta en una sesión de **Claude Code**, que lee tus archivos,
+No es un prompt para el chat: se ejecuta en una sesión de **Claude Code** (en la terminal o en la aplicación de escritorio [Claude Desktop](https://claude.com/download); en el video uso la terminal, pero funciona igual), que lee tus archivos,
 escribe scripts y trabaja sobre tu aula de Moodle.
 
 Está escrito a partir de dos materias reales de la Universidad de Cuenca (Redes Inalámbricas y
@@ -60,7 +60,8 @@ Haz la primera prueba en un curso **vacío o de prueba**, no en uno con estudian
 
 ### 4. Ejecuta el prompt
 
-Abre una terminal en la carpeta de la materia (la que contiene `insumos/`), inicia `claude`, y
+Abre una terminal en la carpeta de la materia (la que contiene `insumos/`) e inicia `claude` (o abre
+esa carpeta en Claude Desktop), y
 pega el prompt. **No hay nada que rellenar.** El proceso es largo: Claude trabaja fase por fase,
 verifica cada una contra el aula y solo se detiene para preguntarte si hay ambigüedades.
 

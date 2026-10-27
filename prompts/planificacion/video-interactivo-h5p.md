@@ -1,6 +1,6 @@
 # Video interactivo con preguntas (H5P) en Moodle con Claude Code
 
-> 🎬 **Video:** próximamente · ☕ **Categoría:** Planificación · 🛠️ **Requiere:** [Claude Code](https://claude.com/claude-code), [yt-dlp](https://github.com/yt-dlp/yt-dlp) y un Moodle con H5P Interactive Video
+> 🎬 **Video:** próximamente · ☕ **Categoría:** Planificación · 🛠️ **Requiere:** [Claude Code](https://claude.com/claude-code) (terminal o Claude Desktop), [yt-dlp](https://github.com/yt-dlp/yt-dlp) y un Moodle con H5P Interactive Video
 
 ## Para qué sirve
 
@@ -13,7 +13,7 @@ Tú das el enlace del video. Claude lee sus subtítulos (no descarga el video), 
 tiempo de los conceptos, la compara con tu sílabo y propone preguntas en el segundo exacto, cada
 una con la frase del video que la justifica. **Tú revisas las preguntas** antes de que publique.
 
-No es un prompt para el chat: se ejecuta en una sesión de **Claude Code**, que trabaja sobre tu
+No es un prompt para el chat: se ejecuta en una sesión de **Claude Code** (en la terminal o en la aplicación de escritorio [Claude Desktop](https://claude.com/download); en el video uso la terminal, pero funciona igual), que trabaja sobre tu
 aula de Moodle.
 
 ## Antes de empezar
@@ -33,7 +33,8 @@ aula de Moodle.
 > ⚠️ **La cookie da acceso a tu cuenta de Moodle mientras la sesión esté abierta.** No la
 > compartas, no la subas a GitHub y no la muestres en pantalla.
 
-Abre una terminal en la carpeta que contiene `insumos/`, inicia `claude`, rellena los cinco datos
+Abre una terminal en la carpeta que contiene `insumos/` e inicia `claude` (o abre esa carpeta en
+Claude Desktop), rellena los cinco datos
 y pega el prompt.
 
 ## Prompt
