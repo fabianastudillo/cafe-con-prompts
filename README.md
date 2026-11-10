@@ -24,7 +24,7 @@ compartirlos.
 | Categoría | Para qué | Prompts |
 |---|---|---|
 | [Planificación](prompts/planificacion/) | Clases, unidades didácticas, sílabos | [Aula invertida en Moodle con Claude Code](prompts/planificacion/aula-invertida-moodle.md) · [Video interactivo H5P en Moodle](prompts/planificacion/video-interactivo-h5p.md) |
-| [Evaluación](prompts/evaluacion/) | Rúbricas, exámenes, actividades | [Rúbrica analítica](prompts/evaluacion/rubrica-analitica.md) |
+| [Evaluación](prompts/evaluacion/) | Rúbricas, exámenes, actividades | [Rúbrica analítica](prompts/evaluacion/rubrica-analitica.md) · [Rúbrica y calificación en Moodle](prompts/evaluacion/rubrica-moodle.md) |
 | [Retroalimentación](prompts/retroalimentacion/) | Comentarios a trabajos de estudiantes | Próximamente |
 | [Adaptación](prompts/adaptacion/) | Materiales para distintos niveles y necesidades | Próximamente |
 | [Fundamentos](prompts/fundamentos/) | Cómo escribir mejores prompts | Próximamente |
