@@ -93,7 +93,7 @@ Con mi visto bueno:
 - Crea la tarea en la sección pedida, justo después de la actividad o del momento que te
   indiqué: entrega en archivo (PDF, un archivo), comentarios de retroalimentación activados,
   método de calificación = rúbrica, nota máxima = puntaje, sin flujo de calificación, sin
-  notificaciones. Abre hoy a las 00:00 y vence en 7 días a las 23:59; si la semana de la
+  notificaciones. Abre hoy a las 00:00 y vence en 7 días a las 23:59 (la fecha límite para calificar, una semana después del vencimiento: Moodle la exige posterior); si la semana de la
   actividad ya pasó, igual usa esas fechas: el estudiante tiene que poder entregar.
 - Carga la rúbrica y déjala preparada («Guardar rúbrica y dejarla preparada»).
 - Abre la tarea como profesor y comprueba que la rúbrica aparece con todos sus criterios y
@@ -105,10 +105,10 @@ Con mi visto bueno:
 Cuando te lo pida:
 
 - Busca las entregas enviadas, descarga cada archivo y léelo con `pdftotext`.
-- Si una entrega no es PDF o no tiene texto legible (por ejemplo, una foto escaneada), no
+- Si una entrega no es PDF o no tiene texto legible (por ejemplo, una foto escaneada: `pdftotext` devuelve casi nada), no
   propongas niveles para ella: dímelo y sigue con las demás. Nunca adivines.
 - Por cada entrega, una tabla: criterio · nivel propuesto · puntos · cita textual de la
-  entrega que lo justifica · una línea de por qué. Si el nivel depende de algo que falta, dilo
+  entrega que lo justifica · una línea de por qué. Si la entrega trae cifras o resultados que puedes recalcular, recalcúlalos antes de proponer el nivel. Si el nivel depende de algo que falta, dilo
   («no menciona ninguna diapositiva»).
 - Redacta un comentario de retroalimentación de 2 a 4 frases: primero lo que el grupo logró,
   luego qué mejorar y cómo. Sin la nota.
@@ -118,8 +118,8 @@ Detente: la nota la decido yo. Puedo confirmar o cambiar niveles y el comentario
 
 ## Paso 5 — Guarda y muestra el resultado
 
-- Guarda la calificación con mis cambios (niveles, una observación por criterio cuando ayude y
-  el comentario), sin notificar al estudiante. El calificador de Moodle guarda con el servicio
+- Guarda la calificación con mis cambios (niveles, comentario y, solo si las aprobé, observaciones
+  por criterio), sin notificar al estudiante. El calificador de Moodle guarda con el servicio
   `mod_assign_submit_grading_form` y el formulario del panel de calificación.
 - Relee la nota en Moodle y comprueba que es la suma de los niveles elegidos.
 - Muestra la tabla final (criterio · nivel · puntos), la nota y el enlace a la entrega para
