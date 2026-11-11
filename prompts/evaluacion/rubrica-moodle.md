@@ -81,6 +81,8 @@ Propón:
     capturas o cálculos propios y las diapositivas que lo respaldan), hasta el número pedido;
   - cada nivel describe algo que se puede ver en la entrega. Prohibido «bueno», «regular»,
     «adecuado», «suficiente», «excelente» o «deficiente» sin decir qué se ve;
+  - los niveles son acumulativos: cada uno incluye todo lo del anterior y añade algo. Comprueba que
+    cualquier entrega posible cabe en algún nivel;
   - el nivel más bajo de cada criterio vale 0, y la suma de los niveles más altos es
     exactamente el puntaje. Reparte los puntos según el peso de cada parte y dilo.
 
@@ -109,7 +111,8 @@ Cuando te lo pida:
   propongas niveles para ella: dímelo y sigue con las demás. Nunca adivines.
 - Por cada entrega, una tabla: criterio · nivel propuesto · puntos · cita textual de la
   entrega que lo justifica · una línea de por qué. Si la entrega trae cifras o resultados que puedes recalcular, recalcúlalos antes de proponer el nivel. Si el nivel depende de algo que falta, dilo
-  («no menciona ninguna diapositiva»).
+  («no menciona ninguna diapositiva»). Si la entrega no cabe en ningún nivel (cumple algo de uno superior pero
+  le falta algo de uno inferior), no elijas uno: dímelo, porque la rúbrica tiene un error.
 - Redacta un comentario de retroalimentación de 2 a 4 frases: primero lo que el grupo logró,
   luego qué mejorar y cómo. Sin la nota.
 - Muestra la nota que saldría (suma de puntos).
@@ -154,5 +157,7 @@ o si la cookie caducó.
 - Revisa cada nivel de la rúbrica preguntándote «¿lo puedo señalar en la hoja?». Si no, pide
   que lo reescriba: un nivel observable es lo que permite a Claude citar la evidencia.
 - En el paso 4, lee la cita de cada criterio: si la cita no justifica el nivel, cámbialo.
+- Si después de calificar notas que una entrega no cabía en ningún nivel, el error es de la rúbrica: pide
+  que corrija ese criterio en Moodle (sin crear otra rúbrica) y que revise las notas ya guardadas.
 - Prueba la tarea con una cuenta de estudiante antes de abrirla al grupo: debe poder subir el
   archivo y, después de calificar, ver los niveles, el comentario y la nota.
